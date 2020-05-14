@@ -1,0 +1,14 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="a6.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+This is me in a nut shell, and only pecans will do. 
+
+Study at UW
+
+I am an active member of sloths [Linkylink](http://www.rladiesnyc.org/). 
+
+My full CV is available [here](AyelletCV2020.pdf).
