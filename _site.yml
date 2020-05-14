@@ -1,0 +1,24 @@
+name: "Ayellet Pelled"
+output_dir: "."
+navbar:
+  title: "Ayellet Pelled"
+  left:
+    - text: "Publications"
+      href: research.html
+    - text: "Presentations"
+      href: talks.html
+    - text: "Graphic design"
+      href: visual.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/zabore
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ayellet-pelled-84939059/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
