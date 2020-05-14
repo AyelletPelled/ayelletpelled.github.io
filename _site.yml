@@ -1,8 +1,12 @@
 name: "Ayellet Pelled"
 output_dir: "."
 navbar:
-  title: "Ayellet Pelled"
+  title: "Ayellet the Pelled"
   left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
     - text: "Publications"
       href: research.html
     - text: "conferences"
@@ -16,8 +20,4 @@ navbar:
       href: contact.html
     - icon: fa-github fa-lg
       href: http://github.com/ayelletpelled
-  
-output:
-  html_document:
-    theme: paper
-    css: 'styles.css'
+
