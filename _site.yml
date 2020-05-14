@@ -1,0 +1,23 @@
+name: "Ayellet Pelled"
+output_dir: "."
+navbar:
+  title: "Ayellet Pelled"
+  left:
+    - text: "Publications"
+      href: research.html
+    - text: "conferences"
+      href: talks.html
+    - text: "Graphic Design"
+      href: visual.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/ayelletpelled
+  
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
