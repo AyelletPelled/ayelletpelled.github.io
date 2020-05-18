@@ -1,0 +1,154 @@
+﻿body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background: repeating-linear-gradient(45deg, #133f43, #133f43 20px, #10454a 20px, #10454a 40px);
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h1 {
+    font-size: 36px;
+    color: #10454a
+}
+
+h2 {
+    font-size: 30px;
+    color: #10454a
+}
+
+h3 {
+    font-size: 24px;
+    color: #10454a
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icon-box {
+    float: right;
+    margin-right: 10px;
+}
+
+    .icon-box a {
+        outline: none;
+        display: block;
+    }
+
+    .icon-box img {
+        display: block;
+    }
+
+.logo-box {
+    float: left;
+    margin-right: 20px;
+}
+
+    .logo-box a {
+        outline: none;
+        display: block;
+    }
+
+    .logo-box img {
+        display: block;
+    }
+
+nav {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float:left ;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    transition: .5s linear;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: #ebe8e8;
+    text-transform: uppercase;
+}
+
+    nav a:after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        background: #868686;
+        transition: width .5s linear;
+    }
+
+    nav a:hover:after {
+        width: 100%;
+    }
+
+@media screen and (max-width: 660px) {
+    header {
+        text-align: center;
+    }
+
+    .logo-box {
+        float: none;
+        display: inline-block;
+        margin: 0 0 16px 0;
+    }
+
+    ul {
+        float: none;
+    }
+
+    nav li:first-of-type {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        overflow: visible;
+    }
+
+        nav li {
+            display: block;
+            margin: 0;
+            height: 40px;
+            line-height: 40px;
+        }
+
+            nav li:hover {
+                background: rgba(0,0,0,.1);
+            }
+
+        nav a:after {
+            content: none;
+        }
+}
